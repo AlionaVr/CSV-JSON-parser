@@ -1,4 +1,5 @@
 rootProject.name = 'untitled'
 include 'XML_JSONparser'
 include 'employee'
+include 'MyJSONParser'
 

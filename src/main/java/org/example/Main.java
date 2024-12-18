@@ -28,6 +28,12 @@ public class Main {
         String json2 = listToJson(staff2);
         writeString(json2, json2FileName);
 
+        MyJSONParser jsonParser = new MyJSONParser();
+        String jsonData = jsonParser.readString("data2.json");
+        List<Employee> list = jsonParser.jsonToList(jsonData);
+        System.out.println(list.toString());
+
+
     }
 
     protected static String listToJson(List<Employee> staff) {
