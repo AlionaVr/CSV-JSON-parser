@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/XML_JSONparser" />
+            <option value="$PROJECT_DIR$/employee" />
           </set>
         </option>
       </GradleProjectSettings>
